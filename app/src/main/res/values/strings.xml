@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QuizAppProject</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="account">Don\'t have an account yet? Please <font color="#5b39c6"><b>Sign up</b></font> </string>
+    <string name="forgotPass"><b><u>I Forgot My Password</u></b></string>
+</resources>
