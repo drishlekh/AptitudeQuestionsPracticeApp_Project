@@ -35,13 +35,13 @@
             app:startIconDrawable="@drawable/baseline_attach_email_24">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextLoginEmail"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:hint="        Email"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:inputType="textEmailAddress"
-                />
+                android:inputType="textEmailAddress" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -52,16 +52,17 @@
             app:startIconDrawable="@drawable/baseline_block_24">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextLoginPassword"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:hint="        Password"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:inputType="textPassword"/>
+                android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonSignIn"
             android:layout_width="250dp"
             android:layout_height="60dp"
             android:layout_marginTop="20dp"
@@ -93,13 +94,15 @@
                 android:background="@color/black"/>
 
         </LinearLayout>
+
         <com.google.android.gms.common.SignInButton
+            android:id="@+id/buttonGoogleSignIn"
             android:layout_width="250dp"
             android:layout_height="60dp"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textViewSignUp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -108,7 +111,7 @@
             android:textColor="@color/white" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textViewForgotPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20sp"
