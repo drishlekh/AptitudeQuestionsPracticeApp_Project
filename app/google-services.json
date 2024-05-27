@@ -12,7 +12,20 @@
           "package_name": "com.techmania.quizappproject"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "153614751013-e6fbpajph5meb1vhumcd236p6bp9eeoc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techmania.quizappproject",
+            "certificate_hash": "3be9392a39be7caf8dd372b60bc2b3c45c819a1b"
+          }
+        },
+        {
+          "client_id": "153614751013-grtnjeq4ik90tiimou3qpqka8mvssn6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyC6hkx9-tlOQvAbIr7aFzYuPGqq_GagayE"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153614751013-grtnjeq4ik90tiimou3qpqka8mvssn6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
