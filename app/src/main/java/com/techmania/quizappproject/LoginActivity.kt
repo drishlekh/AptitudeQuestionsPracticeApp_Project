@@ -21,7 +21,7 @@ class LoginActivity : AppCompatActivity() {
 
     val auth = FirebaseAuth.getInstance()
 
-    lateinit var googleSignInClient : GoogleApiClient
+    //lateinit var googleSignInClient : GoogleApiClient
 
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -41,9 +41,13 @@ class LoginActivity : AppCompatActivity() {
             val  userPassword = loginBinding.editTextLoginPassword.text.toString()
             signInUser(userEmail,userPassword)
         }
-        loginBinding.buttonGoogleSignIn.setOnClickListener {
 
-        }
+
+//        loginBinding.buttonGoogleSignIn.setOnClickListener {
+//
+//        }
+
+
         loginBinding.textViewSignUp.setOnClickListener {
             val intent = Intent(this,SignUpActivity::class.java)
             startActivity(intent)
